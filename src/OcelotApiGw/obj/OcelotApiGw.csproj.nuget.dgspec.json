@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\boutainita\\source\\repos\\DOTNET_MICRO_SERVICES\\Microservices\\src\\OcelotApiGw\\OcelotApiGw.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\boutainita\\source\\repos\\DOTNET_MICRO_SERVICES\\Microservices\\src\\OcelotApiGw\\OcelotApiGw.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\boutainita\\source\\repos\\DOTNET_MICRO_SERVICES\\Microservices\\src\\OcelotApiGw\\OcelotApiGw.csproj",
+        "projectName": "OcelotApiGw",
+        "projectPath": "C:\\Users\\boutainita\\source\\repos\\DOTNET_MICRO_SERVICES\\Microservices\\src\\OcelotApiGw\\OcelotApiGw.csproj",
+        "packagesPath": "C:\\Users\\boutainita\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\boutainita\\source\\repos\\DOTNET_MICRO_SERVICES\\Microservices\\src\\OcelotApiGw\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\boutainita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            },
+            "Ocelot.Cache.CacheManager": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
